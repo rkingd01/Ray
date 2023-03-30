@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 
-.container1 {
+.containerOpen {
   padding: 5rem;
-  background-color: #cfd0df;
-  color: rgb(20, 15, 15);
+  background-color: #1d2ad9;
+  color: rgb(39, 221, 42);
   max-height: 60rem;
   text-align: center;
 }
 
 h1 {
-  color: rgb(183, 190, 96);
   margin-bottom: 4rem;
 }
 
