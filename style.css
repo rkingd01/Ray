@@ -1,44 +1,229 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2{
+    text-align: center;
+  }
 
 
-h1 {
-  display: inline-block;
-  margin: 1rem;
-  padding: 2rem;
-  font-size: x-large;
+
+.container2{
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows:minmax(100px, 240px);
+  row-gap: .4em;
+  column-gap: .4em;
+  margin-inline: .4em;
 }
 
-.container1 {
-  height: 100vh;
-}
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("imgSM/wedCol.jpg");
-  /* Set a specific height */
-  height: 100%;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
+  
+
+
+
+.item{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  font-size:2em;
+  background-color:#1c57b5;
+  margin-top:1rem;
+
   position: relative;
-  z-index: 2;
+
+  
 }
 
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
+
+.item1{
+
+  background-image: url('./img/FredMum4SisCol.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:top;
+ 
+}
+
+.span1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  -webkit-text-stroke: black 1px;
   position: absolute;
-  top: 80%;
-  left: 55%;
-  transform: translate(-50%, -50%);
+  bottom: 8px;
+  right: 8px;
+  font-weight: 700;
+
+
+}
+
+.span1 > a{
+  text-decoration: none;
   color: white;
 }
+
+
+
+
+.item2{
+  background-image: url('./img/Madis_Famili.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+  background-attachment: local; 
+
+}
+
+
+
+
+
+.item3{
+  background-image: url('./img/KillKulaks.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y: top;
+}
+
+.item4{
+  background-image: url('./img/evictionCol.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  }
+
+
+
+
+.item5{
+  background-image: url('./img/orfansCol.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+
+}
+
+
+
+.item6{
+  background-image: url('./img/LeninGrd-350px.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:top;
+
+}
+
+.item7{
+  background-image: url('img/EstiiSoldierCol350w.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  background-attachment:scroll;
+  
+}
+
+
+.item8{
+  background-image: url('img/EestiSS.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-attachment:scroll;
+ 
+  
+
+}
+
+.item9{
+  background-image: url('./img/Aliide_Col111.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  background-attachment:scroll; 
+}
+
+.item10{
+background-image: url('img/recruitCol600x411.jpg');
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center;
+background-attachment:scroll;
+}
+
+.item11{
+    background-image: url('./img/Fred2sisColL.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-attachment:scroll;
+    
+  }
+
+ 
+
+  .item12{
+    background-image: url('./img/fredrecruit.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-attachment:scroll;
+    
+  }
+
+ 
+
+
+
+ 
+
+
+
+
+  
+
+/* ---------MQ ---------------------------------- */
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width:1024px) {
+    body {
+      background-color: burlywood;
+      margin: 0 1rem ;
+    }
+    .container2{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-auto-rows:minmax(150px, 350px);
+      column-gap: 1em;
+      row-gap: 1em;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1025px) {
+    body {
+      background-color: rgb(204, 170, 236);
+    }
+    .container2{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-auto-rows:minmax(250px, 400px);
+      column-gap: 1.5em;
+      row-gap: 1.5em;
+    }
+
+  }
