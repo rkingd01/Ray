@@ -2,7 +2,12 @@
   box-sizing:border-box;
 }
 
+section{
+  display: flex;
+  flex-direction: column;
+  margin-inline: 5vw;
 
+}
 
 img {
     display: block;
@@ -95,10 +100,10 @@ img {
 }
 
 .item4{
-  background-image: url('./img/evictionCol.jpg');
+  background-image: url('./img/VasCowCoL.jpg');
   background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
+  background-size:contain;
+  background-position:center;
   }
 
 
@@ -117,7 +122,7 @@ img {
 .item6{
   background-image: url('./img/LeninGrd-350px.jpg');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-position:top;
 
 }
@@ -125,8 +130,8 @@ img {
 .item7{
   background-image: url('img/EstiiSoldierCol350w.jpg');
   background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center;
+  background-size:cover;
+  background-position:top;
   background-attachment:scroll;
   
 }
@@ -135,7 +140,7 @@ img {
 .item8{
   background-image: url('img/EestiSS.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position:center;
     background-attachment:scroll;
  
