@@ -8,6 +8,10 @@ body{
   font-size: larger;
 }
 
+/* --------NAV BAR BEGIN ------------ */
+
+
+/* ---------NAV BAR END ----------- */
 section{
   display:flex;
   flex-direction: column;
