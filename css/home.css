@@ -9,6 +9,10 @@ body{
 
 }
 
+article{
+    margin-inline: 1rem;
+}
+
 
 img {
     border: 3px double #4b3b3b;
