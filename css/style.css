@@ -50,6 +50,8 @@ color:purple;
 
 
 
+
+
 /* ---------NAV BAR END ----------- */
 
 
@@ -94,7 +96,7 @@ img {
   justify-content:center;
   align-items:center;
 
-  font-size:2em;
+  
   background-color:#1c57b5;
   margin-top:1rem;
   position: relative;
@@ -114,11 +116,11 @@ img {
 
 .span1{
   
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   -webkit-text-stroke: black 1px;
   position: absolute;
   bottom: 8px;
-  right: 8px;
+  right: 12px;
   font-weight: 700;
 
 
@@ -284,6 +286,8 @@ background-attachment:scroll;
       background-color: burlywood;
       margin: 0 1rem ;
     }
+
+
     .container2{
       display: grid;
       grid-template-columns: auto auto;
