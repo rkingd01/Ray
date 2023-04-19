@@ -9,6 +9,11 @@ body{
 
 }
 
+.btn-back{
+  display:inline;
+border: red solid 5px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -37,11 +42,14 @@ body{
 
 
 
+.container{
+  display:flex;
+  flex-direction: column;
+}
 
 
 
-
-article{
+main{
     margin-inline: 1rem;
 }
 
@@ -62,6 +70,7 @@ figcaption{
   .container    {
     display: flex;
     justify-content: center;
+    flex-direction: column;
    
 
   }
