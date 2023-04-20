@@ -79,7 +79,7 @@ img {
 .container2{
   display: grid;
   grid-template-columns: auto;
-  grid-auto-rows:minmax(200px, 240px);
+  grid-auto-rows:minmax(200px, 250px);
   row-gap: .4em;
   column-gap: .4em;
   margin-inline: .4em;
@@ -127,79 +127,52 @@ img {
   text-decoration: none;
   color: white;
 }
-
-
-
-
 .item2{
   background-image: url('../img/Madis_Famili.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
   background-attachment: local; 
-
 }
-
-
-
-
-
 .item3{
   background-image: url('../img/KillKulaks.jpeg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position-y: top;
 }
-
 .item4{
   background-image: url('../img/VasCowCoL.jpg');
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
   }
-
-
-
-
 .item5{
   background-image: url('../img/orfansCol.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
-
 }
-
-
 
 .item6{
   background-image: url('../img/LeninGrd-350px.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
-
 }
-
 .item7{
   background-image: url('../img/EstiiSoldierCol350w.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
   background-attachment:scroll;
-  
 }
-
-
 .item8{
   background-image: url('../img/EestiSS.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
     background-attachment:scroll;
- 
-  
-
 }
-
 .item9{
   background-image: url('../img/Aliide_Col111.jpg');
   background-repeat: no-repeat;
@@ -207,7 +180,6 @@ img {
   background-position:center;
   background-attachment:scroll; 
 }
-
 .item10{
 background-image: url('../img/recruitCol300.jpg');
 background-repeat: no-repeat;
@@ -215,39 +187,22 @@ background-size:contain;
 background-position:center;
 background-attachment:scroll;
 }
-
 .item11{
     background-image: url('../img/Fred2sisColL.jpg');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
     background-attachment:scroll;
-    
   }
-
- 
-
   .item12{
     background-image: url('../img/fredrecruit.jpg');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
     background-attachment:scroll;
-    
   }
 
- 
-
-
-
- 
-
-
-
-
-  
-
-/* ---------MQ ---------------------------------- */
+/* ---------MQ ------------MQ---------------------- */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -298,7 +253,7 @@ background-attachment:scroll;
     .container2{
       display: grid;
       grid-template-columns: auto auto;
-      grid-auto-rows:minmax(250px, 400px);
+      grid-auto-rows:minmax(250px, 370px);
       column-gap: 1.5em;
       row-gap: 1.5em;
     }
