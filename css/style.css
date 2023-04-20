@@ -79,7 +79,7 @@ img {
 .container2{
   display: grid;
   grid-template-columns: auto;
-  grid-auto-rows:minmax(100px, 240px);
+  grid-auto-rows:minmax(200px, 300px);
   row-gap: .4em;
   column-gap: .4em;
   margin-inline: .4em;
@@ -93,14 +93,11 @@ img {
 .item{
   display:flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
-
-  
   background-color:#1c57b5;
   margin-top:1rem;
   position: relative;
-
+ /* justify-content:center; */
+  /* align-items:center; */
   
 }
 
@@ -258,6 +255,9 @@ background-attachment:scroll;
     float: right;
     display: block;
   }
+  body {
+    background-color: lightblue;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -270,23 +270,16 @@ background-attachment:scroll;
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align:left;
   }
 }
 
-
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
 
   @media only screen and (min-width: 601px) and (max-width:1024px) {
     body {
       background-color: burlywood;
       margin: 0 1rem ;
     }
-
 
     .container2{
       display: grid;
