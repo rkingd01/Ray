@@ -28,13 +28,8 @@ main{
 
 
 
-  
-figure{
-  background-color: #111111;
-}
-
-figcaption{
-  color:white;
+figure figcaption{
+  font-style: italic;
   text-align: center;
 
 }
