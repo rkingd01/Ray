@@ -6,13 +6,11 @@
 .container01{
   display:flex;
   flex-direction: column;
+  max-width: 80%;
+  margin-inline: 2rem;
 }
 
 
-
-main{
-    margin-inline:5vw;;
-}
 
 
 
@@ -22,18 +20,8 @@ figure figcaption{
 
 }
 
-  .container01    {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
 
-  }
  
-  .container01{
-    font-size: clamp(1rem, 2.5vw, 1.7rem); 
-    width: clamp(100px, calc(30% / 2rem + 10px), 900px);
-  }
 
   @media only screen and (min-width: 601px) and (max-width:1024px) {
     body {
@@ -44,30 +32,39 @@ figure figcaption{
     .container01{
       display:flex;
       flex-direction: row;
+      margin:0 auto;
     }
-
     .box1{
-      width: 100px;;
+      width: 90%;
+      margin: 10px;
     }
     .box2{
-      width:100px;
+      width:90%;
+      margin: 15px;
     }
-    
-  }
+}
+
+
 
   @media only screen and (min-width: 1025px) {
     body {
       background-color: rgb(204, 170, 236);
     }
-  .container01{
+    .container01{
       display:flex;
       flex-direction: row;
-      
-      
-    
-    }
+      margin:0 auto;
+}
 
-  }
+.box1{
+  width: 70%;
+  margin: 20px;
+}
+.box2{
+  width:70%;
+  margin: 20px;
+}
+    }
 
 
 
