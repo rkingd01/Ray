@@ -1,7 +1,5 @@
 * {
   box-sizing:border-box;
-
-
 }
 body{
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -9,10 +7,7 @@ body{
   text-align: justify;
   font-size: larger;
 }
-.par1{
-color:purple;
-}
-/* --------NAV BAR BEGIN ------------ */
+
 .h1-pl-16{
   padding-left:16px;
 }
@@ -48,14 +43,7 @@ color:purple;
   display: none;
 }
 
-
-
-
-
-/* ---------NAV BAR END ----------- */
-
-
-.para1{
+.para-open{
   display:flex;
   flex-direction: column;
   margin-left: 10%;
@@ -85,42 +73,29 @@ img {
   margin-inline: .4em;
 }
 
-
-  
-
-
-
 .item{
   display:flex;
   flex-direction: column;
   background-color:#1c57b5;
   margin-top:1rem;
   position: relative;
- /* justify-content:center; */
-  /* align-items:center; */
-  
 }
 
 
 .item1{
-
   background-image: url('../img/FredMum4SisCol.jpg');
   background-repeat: no-repeat;
   background-size:contain;
   background-position:top;
- 
 }
 
 .span1{
-  
   font-size: 1.6rem;
   -webkit-text-stroke: black 1px;
   position: absolute;
   bottom: 8px;
   right: 12px;
   font-weight: 700;
-
-
 }
 
 .span1 > a{
