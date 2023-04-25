@@ -1,0 +1,20 @@
+.pics-container {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 8px;
+}
+
+img {
+    min-width:140px;
+    max-width:200px;
+    
+    
+}
+
+
+/* 
+RAY LOOK
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_flex_responsive */
+
+
