@@ -76,7 +76,7 @@ img {
 .item{
   display:flex;
   flex-direction: column;
-  background-color:#1c57b5;
+  
   margin-top:1rem;
   position: relative;
 }
