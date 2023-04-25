@@ -43,7 +43,7 @@ body{
   display: none;
 }
 
-.para-open{
+.intro{
   display:flex;
   flex-direction: column;
   margin-left: 10%;
@@ -218,10 +218,19 @@ background-attachment:scroll;
       column-gap: 1em;
       row-gap: 1em;
     }
+
+    .intro{
+      display:flex;
+      flex-direction: column;
+      margin-left: 16%;
+      margin-right: 16%;
+      
+    
+    }
     
   }
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1025px) and (max-width:1200px){
     body {
       background-color: rgb(204, 170, 236);
     }
@@ -231,6 +240,38 @@ background-attachment:scroll;
       grid-auto-rows:minmax(250px, 370px);
       column-gap: 1.5em;
       row-gap: 1.5em;
+    }
+
+    .intro{
+      display:flex;
+      flex-direction: column;
+      margin-left: 25%;
+      margin-right: 25%;
+      
+    
+    }
+
+  }
+
+  @media only screen and (min-width: 1201px) {
+    body {
+      background-color: rgb(229, 236, 170);
+    }
+    .container2{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-auto-rows:minmax(250px, 370px);
+      column-gap: 1.5em;
+      row-gap: 1.5em;
+    }
+
+    .intro{
+      display:flex;
+      flex-direction: column;
+      margin-left: 35%;
+      margin-right: 35%;
+      
+    
     }
 
   }
