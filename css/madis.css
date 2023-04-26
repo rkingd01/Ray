@@ -1,15 +1,22 @@
 .pics-container {
     display:flex;
     flex-direction: row;
-    text-align: center;
+    align-items: center;
+    justify-content: space-around;
     gap: 8px;
+    text-align: end;
+
+    
 }
 
-img {
-    min-width:140px;
-    max-width:200px;
+
+.pic{
+   text-align: center;
+  
     
-    
+}
+.pic1{
+   
 }
 
 
