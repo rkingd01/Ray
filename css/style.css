@@ -2,9 +2,7 @@
   box-sizing:border-box;
 }
 body{
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-family: 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
 
 }
 
@@ -97,14 +95,14 @@ img {
   -webkit-text-stroke: black 1px;
   position: absolute;
   bottom: 8px;
-  right: 12px;
+  right: 36px;
   font-weight: 700;
-  background-color: #0f8ee9;
+  background-color: rgba(15, 142, 233, 0.4);
 }
 
 .span1 > a{
   text-decoration: none;
-  color: white;
+  color: yellow;
 }
 .item2{
   background-image: url('../img/Madis_Famili.jpg');
