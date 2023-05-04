@@ -76,6 +76,22 @@ img {
   margin-inline: .4em;
 }
 
+.span1{
+  font-size: 1.6rem;
+  -webkit-text-stroke: black 1px;
+  position: absolute;
+  bottom: 8px;
+  right: 36px;
+  font-weight: 700;
+  background-color: rgba(15, 142, 233, 0.4);
+}
+
+.span1 > a{
+  text-decoration: none;
+  color: rgb(236, 236, 191);
+}
+
+
 .item{
   display:flex;
   flex-direction: column;
@@ -91,39 +107,28 @@ img {
   background-position:top;
 }
 
-.span1{
-  font-size: 1.6rem;
-  -webkit-text-stroke: black 1px;
-  position: absolute;
-  bottom: 8px;
-  right: 36px;
-  font-weight: 700;
-  background-color: rgba(15, 142, 233, 0.4);
-}
-
-.span1 > a{
-  text-decoration: none;
-  color: rgb(236, 236, 191);
-}
 .item2{
+  background-image: url('../img/VasCowCoL.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  }
+
+
+.item3{
   background-image: url('../img/Madis_Famili.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
   background-attachment: local; 
 }
-.item3{
+.item4{
   background-image: url('../img/KillKulaks.jpeg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position-y: top;
 }
-.item4{
-  background-image: url('../img/VasCowCoL.jpg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center;
-  }
+
 .item5{
   background-image: url('../img/orfansCol.jpg');
   background-repeat: no-repeat;
@@ -284,7 +289,7 @@ background-attachment:scroll;
     .container2{
       display: grid;
       grid-template-columns: auto auto;
-      grid-auto-rows:minmax(250px, 370px);
+      grid-auto-rows:minmax(250px, 390px);
       column-gap: 1.5em;
       row-gap: 1.5em;
       margin: 0 10rem;
