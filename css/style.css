@@ -136,48 +136,48 @@ img {
   background-position: center;
 }
 
-.item6{
+.item6a{
   background-image: url('../img/LeninGrd-350px.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
 }
-.item7{
+.item6b{
   background-image: url('../img/EstiiSoldierCol350w.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:top;
   background-attachment:scroll;
 }
-.item8{
+.item6c{
   background-image: url('../img/EestiSS.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
     background-attachment:scroll;
 }
-.item9{
+.item7a{
   background-image: url('../img/Aliide_Col111.jpg');
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
   background-attachment:scroll; 
 }
-.item10{
+.item7b{
 background-image: url('../img/recruitCol300.jpg');
 background-repeat: no-repeat;
 background-size:contain;
 background-position:center;
 background-attachment:scroll;
 }
-.item11{
+.item7c{
     background-image: url('../img/Fred2sisColL.jpg');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
     background-attachment:scroll;
   }
-  .item12{
+  .item7d{
     background-image: url('../img/fredrecruit.jpg');
     background-repeat: no-repeat;
     background-size:contain;
