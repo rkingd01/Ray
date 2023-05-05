@@ -41,11 +41,7 @@ body{
 }
 
 
-img{
-  border: blue solid 4px;
-  max-width: 360px;
-  
-}
+
 
 
 
@@ -85,15 +81,17 @@ img {
 
 
 .item{
-  display:flex;
-  flex-direction: column;
+ display:flex;
+
   border: black .25rem solid;
+  align-items: center;
   
  
 
 }
 
 section{
+  margin-left:.5rem;
 
 }
 
