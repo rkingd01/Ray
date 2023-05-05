@@ -97,92 +97,50 @@ img {
   flex-direction: column;
   margin-top:1rem;
   position: relative;
+  border: black .25rem solid;
 }
 
 
 .item1{
-  /* background-image: url('../img/FredMum4SisCol.jpg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position:top; */
+
 }
 
 .item2{
-  background-image: url('../img/VasCowCoL.jpg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center;
+ 
   }
 
 
 .item3{
-  background-image: url('../img/Madis_Famili.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:top;
-  background-attachment: local; 
+
 }
 .item4{
-  background-image: url('../img/KillKulaks.jpeg');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position-y: top;
+
 }
 
 .item5{
-  background-image: url('../img/orfansCol.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
+ 
 }
 
 .item6a{
-  background-image: url('../img/LeninGrd-350px.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:top;
+
 }
 .item6b{
-  background-image: url('../img/EstiiSoldierCol350w.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:top;
-  background-attachment:scroll;
+
 }
 .item6c{
-  background-image: url('../img/EestiSS.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:scroll;
+ 
 }
 .item7a{
-  background-image: url('../img/Aliide_Col111.jpg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center;
-  background-attachment:scroll; 
+ 
 }
 .item7b{
-background-image: url('../img/recruitCol300.jpg');
-background-repeat: no-repeat;
-background-size:contain;
-background-position:center;
-background-attachment:scroll;
+
 }
 .item7c{
-    background-image: url('../img/Fred2sisColL.jpg');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:center;
-    background-attachment:scroll;
+
   }
   .item7d{
-    background-image: url('../img/fredrecruit.jpg');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:center;
-    background-attachment:scroll;
+
   }
 
 
@@ -235,12 +193,6 @@ background-attachment:scroll;
       margin-right: 16%;
     }
 
-    .item1{
-      background-image: url('../img/FredMum4SisCol.jpg');
-      background-repeat: no-repeat;
-      background-size:cover;
-      background-position:top;
-    }
 
     
    
@@ -270,7 +222,7 @@ background-attachment:scroll;
 
     .intro{
       display:flex;
-      flex-direction: column;
+      flex-direction:row;
       margin-left: 25%;
       margin-right: 25%;
     }
