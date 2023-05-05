@@ -87,59 +87,17 @@ img {
   border: black .25rem solid;
   align-items: center;
   overflow:hidden;
-  
- 
-
 }
 
-section{
-  margin-left:.5rem;
 
+img{
+  margin: 1rem;;
 }
 
-.item1{
 
+.item{
+  min-height:300px;
 }
-
-.item2{
- 
-  }
-
-
-.item3{
-
-}
-.item4{
-
-}
-
-.item5{
- 
-}
-
-.item6a{
-
-}
-.item6b{
-
-}
-.item6c{
- 
-}
-.item7a{
- 
-}
-.item7b{
-
-}
-.item7c{
-
-  }
-  .item7d{
-
-  }
-
-
 
 
 @media screen and (max-width: 600px) {
@@ -199,9 +157,6 @@ section{
  
   }
 
-  .item > section{
-    margin-inline: 2rem;
-  } 
 
 
     
