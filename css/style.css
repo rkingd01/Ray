@@ -85,14 +85,17 @@ img {
 
 
 .item{
-  height:fit-content;
   display:flex;
   flex-direction: column;
   border: black .25rem solid;
+  
  
 
 }
 
+section{
+
+}
 
 .item1{
 
@@ -188,8 +191,19 @@ img {
     }
 
 .item{
+  display: flex;
   flex-direction:row;
+ flex-wrap: no-wrap;
+ min-width:fit-content;
+ align-items: center;
+ 
   }
+
+  .item > section{
+    margin-inline: 2rem;
+  } 
+
+
     
    
 
