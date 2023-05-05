@@ -61,6 +61,8 @@ img {
     margin-right: auto;
   }
 
+
+
   h1,h2{
     text-align: center;
   }
@@ -89,9 +91,12 @@ img {
   overflow:hidden;
 }
 
+figcaption{
+  text-align: center;
+}
 
 img{
-  margin: 1rem;;
+  margin: .5rem;
 }
 
 
