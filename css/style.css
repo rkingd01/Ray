@@ -73,7 +73,7 @@ img {
 
 .container2{
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-auto-rows:minmax(300px, 350px);
   row-gap: .4em;
   column-gap: .4em;
@@ -173,8 +173,9 @@ img {
 
     .container2{
       display: grid;
-      grid-template-columns: auto auto;
-      grid-auto-rows:minmax(150px, 350px);
+      grid-template-columns: 1f 1f;
+      grid-auto-rows:minmax(350px, 360px);
+
       column-gap: 1em;
       row-gap: 1em;
     }
@@ -186,7 +187,9 @@ img {
       margin-right: 16%;
     }
 
-
+.item{
+  flex-direction:row;
+  }
     
    
 
@@ -233,7 +236,7 @@ img {
     }
     .container2{
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: 1f 1f;
       grid-auto-rows:minmax(250px, 390px);
       column-gap: 1.5em;
       row-gap: 1.5em;
