@@ -41,7 +41,11 @@ body{
 }
 
 
-
+img{
+  border: blue solid 4px;
+  max-width: 360px;
+  
+}
 
 
 
