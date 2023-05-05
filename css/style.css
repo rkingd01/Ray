@@ -82,7 +82,6 @@ img {
 
 .item{
  display:flex;
-
   border: black .25rem solid;
   align-items: center;
   
