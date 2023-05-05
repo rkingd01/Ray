@@ -101,10 +101,10 @@ img {
 
 
 .item1{
-  background-image: url('../img/FredMum4SisCol.jpg');
+  /* background-image: url('../img/FredMum4SisCol.jpg');
   background-repeat: no-repeat;
   background-size:contain;
-  background-position:top;
+  background-position:top; */
 }
 
 .item2{
