@@ -159,21 +159,8 @@ img{
  flex-wrap: no-wrap;
  min-width:fit-content;
  align-items: center;
- 
   }
 
-
-
-    
-   
-
-  
-
-   
-  
-
-
-    
   }
 
   @media only screen and (min-width: 1025px) and (max-width:1200px){
@@ -193,11 +180,14 @@ img{
     .intro{
       display:flex;
       flex-direction:row;
-      margin-left: 25%;
-      margin-right: 25%;
+      flex-wrap: nowrap;
+    
     }
 
-
+section{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
   }
 /* ------------------------------------------------------ */
