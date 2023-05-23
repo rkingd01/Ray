@@ -116,11 +116,7 @@ img{
     display: block;
   }
 
-  .navbar {
-    width: 100%;
-    background-color:#555;
-    overflow: auto;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -144,6 +140,12 @@ img{
       margin: 0 1rem ;
       font-size: 1.2rem;
       
+    }
+
+    .navbar {
+      width: 100%;
+      background-color:#555;
+      overflow: auto;
     }
 
 
