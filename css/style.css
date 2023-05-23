@@ -16,7 +16,7 @@ body{
   background-color:#555;
   overflow: auto;
   display:grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr;
 
 }
 
@@ -146,6 +146,7 @@ img{
       width: 100%;
       background-color:#555;
       overflow: auto;
+    
     }
 
 
@@ -189,6 +190,13 @@ img{
       margin: 0 8rem;
     }
 
+    .navbar {
+      width: 100%;
+      background-color:#555;
+      overflow: auto;
+      display: block;
+    }
+
     .intro{
       display:flex;
       flex-direction:row;
@@ -218,6 +226,13 @@ section{
       row-gap: 1.5em;
       margin: 0 10rem;
     }
+    .navbar {
+      width: 100%;
+      background-color:#555;
+      overflow: auto;
+      display: block;
+    }
+
 
     .intro{
       display:flex;
