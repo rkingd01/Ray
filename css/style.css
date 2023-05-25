@@ -153,16 +153,15 @@ img{
     .navbar {
       width: 100%;
       background-color:#555;
-      overflow: auto;
+      overflow:auto;
     
     }
 
 
     .container2{
       display: grid;
-      grid-template-columns: 1f 1f;
+      grid-template-columns: 1f;
       grid-auto-rows:minmax(350px, 360px);
-
       column-gap: 1em;
       row-gap: 1em;
     }
@@ -180,6 +179,7 @@ img{
  flex-wrap: no-wrap;
  min-width:fit-content;
  align-items: center;
+ justify-content: center;
   }
 
   }
@@ -212,10 +212,7 @@ img{
     
     }
 
-section{
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 
   }
 /* ------------------------------------------------------ */
