@@ -19,6 +19,14 @@ body{
   grid-template-columns: 1fr 1fr;
 
 }
+.item a{
+  text-decoration: none;
+}
+.item a{
+  background-color: #c7c5c2;
+}
+
+
 
 .navbar a {
   float: left;
@@ -33,7 +41,7 @@ body{
 }
 
 .active {
-  background-color:gold;
+  background-color:rgb(87, 129, 220);
 }
 
 @media screen and (max-width: 600px) {
