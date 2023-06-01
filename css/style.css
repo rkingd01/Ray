@@ -213,6 +213,14 @@ img{
     
     }
 
+    .item{
+      display: flex;
+      flex-direction:row;
+     flex-wrap: no-wrap;
+      align-items: center;
+     justify-content: center;
+      }
+
 
 
   }
@@ -251,6 +259,14 @@ img{
     .intro > p{
       padding-left:6rem ;
     }
+
+    .item{
+      display: flex;
+      flex-direction:row;
+     flex-wrap: no-wrap;
+      align-items: center;
+     justify-content: center;
+      }
 
 
 
