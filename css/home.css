@@ -36,10 +36,12 @@ figure figcaption{
       display:flex;
       flex-direction:row;
       justify-content: center;
+      
     }
 
-
-
+figure{
+  margin:0 auto;
+}
     .container01{
       display:flex;
       flex-direction: row;
@@ -68,7 +70,7 @@ figure figcaption{
       display:flex;
       flex-direction: row;
       width:60%;
- margin:0 auto;
+      margin:0 auto;
  
 }
 
