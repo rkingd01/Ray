@@ -1,0 +1,12 @@
+
+
+img{
+    display: block;
+    margin:0 auto;
+}
+
+section{
+    display: block;
+    margin:0 auto;
+    width: clamp(300px, 60%, 800px);
+}
