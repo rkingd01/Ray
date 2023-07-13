@@ -98,7 +98,6 @@ img {
  display:flex;
  flex-direction: column;
  flex-wrap: no-wrap;
-  border: black .25rem solid;
   align-items: center;
   overflow:hidden;
 }
