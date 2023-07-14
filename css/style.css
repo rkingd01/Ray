@@ -19,6 +19,8 @@ margin:2rem 2rem;
   grid-template-columns: 1fr 1fr;
 
 }
+
+
 .item a{
   text-decoration: none;
 }
@@ -43,6 +45,7 @@ margin:2rem 2rem;
   color: white;
   text-decoration: none;
   font-size: 17px;
+  border: 2px solid black;
 }
 
 .navbar a:hover {
@@ -66,11 +69,6 @@ margin:2rem 2rem;
     display: block;
   }
 }
-
-
-
-
-
 
 
 .intro{
@@ -106,10 +104,6 @@ img {
   margin-inline: .4em;
 }
 
-
-
-
-
 .item{
  display:flex;
  flex-direction: column;
@@ -121,7 +115,7 @@ img {
 figcaption{
   text-align: center;
   color:black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 img{
@@ -130,7 +124,7 @@ img{
 
 
 .item{
-  min-height:300px;
+  min-height:400px;
 }
 
 
@@ -162,14 +156,14 @@ img{
   @media only screen and (min-width: 601px) and (max-width:1024px) {
     body {
      
-      margin: 0 1rem ;
+      /* margin: 0 1rem ; */
       font-size: 1.2rem;
       
     }
 
     .navbar {
       width: 100%;
-      background-color:#555;
+      background-color:#4d0d0d;
       overflow:auto;
     
     }
