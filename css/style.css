@@ -63,6 +63,10 @@ margin:2rem 2rem;
   transform: translate(-50%, -50%);
 }
 
+figcaption{
+  
+}
+
 @media screen and (max-width: 600px) {
   .navbar a {
     float: none;
@@ -110,6 +114,7 @@ img {
  flex-wrap: no-wrap;
   align-items: center;
   overflow:hidden;
+  
 }
 
 figcaption{
@@ -186,6 +191,8 @@ img{
   align-items: center;
  justify-content: center;
   }
+
+  
 
   }
 
