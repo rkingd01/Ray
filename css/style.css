@@ -23,21 +23,20 @@ margin:2rem 2rem;
 
 .item a{
   text-decoration: none;
-}
-.item a{
   background-color: rgb(130, 153, 160);
 }
 
-.item7c{
+
+/* .item7c{
   position: relative;
   text-align: center;
  
-}
+} */
 
-.item7d{
+/* .item7d{
   position: relative;
   text-align: center;
-}
+} */
 
 .navbar a {
   float: left;
@@ -64,7 +63,7 @@ margin:2rem 2rem;
 }
 
 figcaption{
-  
+  font-family: Arial Narrow';
 }
 
 @media screen and (max-width: 600px) {
@@ -113,7 +112,8 @@ img {
  flex-direction: column;
  flex-wrap: no-wrap;
   align-items: center;
-  overflow:hidden;
+  /* overflow:hidden; */
+  
   
 }
 
