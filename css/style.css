@@ -156,7 +156,7 @@ img{
   @media only screen and (min-width: 601px) and (max-width:1024px) {
     body {
      
-      /* margin: 0 1rem ; */
+      margin: 1rem ;
       font-size: 1.1rem;
       
     }
@@ -186,10 +186,11 @@ img{
 
 .item{
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
  flex-wrap: no-wrap;
   align-items: center;
  justify-content: center;
+ border: darkgreen solid 4px;
   }
 
   
@@ -219,17 +220,19 @@ img{
 
     .intro{
       display:flex;
-      flex-direction:row;
+      flex-direction:column;
       flex-wrap: nowrap;
     
     }
 
     .item{
       display: flex;
-      flex-direction:row;
-     flex-wrap: no-wrap;
+      flex-direction:column;
+      gap: 3rem;
+      padding: 2rem 0;
       align-items: center;
      justify-content: center;
+  
     
     
       }
@@ -275,8 +278,7 @@ img{
     .item{
       display: flex;
       flex-direction:row;
-     flex-wrap: no-wrap;
-      align-items: center;
+      align-items:center;
      justify-content: center;
       }
 
