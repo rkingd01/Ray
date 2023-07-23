@@ -230,6 +230,8 @@ img{
      flex-wrap: no-wrap;
       align-items: center;
      justify-content: center;
+    
+    
       }
 
 
@@ -246,9 +248,8 @@ img{
     .container2{
       display: grid;
       grid-template-columns: 1f 1f;
-      grid-auto-rows:minmax(250px, 390px);
-      column-gap: 1.5em;
-      row-gap: 1.5em;
+      grid-auto-rows:minmax(250px, 500px);
+      gap: 1rem;
       margin: 0 10rem;
     }
     .navbar {
