@@ -4,7 +4,7 @@
 body{
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  background-color: rgb(130, 153, 160);
+  background-color: hwb(43 49% 42%);
   }
 
 .h1-pl-16{
@@ -23,20 +23,9 @@ margin:2rem 2rem;
 
 .item a{
   text-decoration: none;
-  background-color: rgb(130, 153, 160);
+  
 }
 
-
-/* .item7c{
-  position: relative;
-  text-align: center;
- 
-} */
-
-/* .item7d{
-  position: relative;
-  text-align: center;
-} */
 
 .navbar a {
   float: left;
@@ -61,8 +50,16 @@ margin:2rem 2rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+figure{
+  border: black 4px solid;
+background-color: black;
+  padding-bottom: 1rem;
+  
+}
 figcaption{
+  padding: 8px;
+  
+  font-style: italic;
   font-family: Arial Narrow';
 }
 
@@ -87,6 +84,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+   
   }
 
 
@@ -114,11 +112,12 @@ img {
   /* overflow:hidden; */
   
   
+  
 }
 
 figcaption{
   text-align: center;
-  color:black;
+  color: antiquewhite;
 
 }
 
@@ -147,6 +146,8 @@ figcaption{
     display: block;
     text-align: left;
   }
+
+ 
 }
 
 
@@ -168,11 +169,10 @@ figcaption{
 
     .container2{
       display: grid;
-      grid-template-columns:1fr;
-      /* grid-auto-rows:minmax(250px, 300px); */
-      
+      grid-template-columns:1fr;      
       row-gap: 1em;
-   justify-items: center;
+      justify-items: center;
+      align-items: center;
     }
 
     .intro{
