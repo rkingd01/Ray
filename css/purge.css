@@ -25,3 +25,20 @@ margin-top:  2rem;
   .end-ref{
     text-align: center;
   }
+
+  .row-pics{
+    display:flex;
+    gap: 2rem;
+  }
+
+  .row-pics-1{
+min-width:250px;
+  }
+  .row-pics-2{
+    min-width:250px;
+
+  }
+  .row-pics-3{
+    min-width:250px;
+
+  }
