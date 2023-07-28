@@ -28,15 +28,17 @@ margin-top:  2rem;
 
   .row-pics{
     display:flex;
-    margin-left: 14rem;
+    justify-content: center;
     gap:5rem;
+    margin-top: 2.5rem;
+   
     
   }
 
-  .row-pics-1 img{
-  width: 200px;
+  .row-pics-1{
+    border: .5rem solid brown;
   }
-  .row-pics-2 img{
-    width: 200px;
-
+ 
+  .row-pics-2{
+    border: .5rem solid brown;
   }
