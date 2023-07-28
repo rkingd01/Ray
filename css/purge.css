@@ -28,17 +28,15 @@ margin-top:  2rem;
 
   .row-pics{
     display:flex;
+    margin-left: 14rem;
+    gap:5rem;
     
   }
 
-  .row-pics-1{
-  min-width:250px;
+  .row-pics-1 img{
+  width: 200px;
   }
-  .row-pics-2{
-    min-width:250px;
-
-  }
-  .row-pics-3{
-    min-width:250px;
+  .row-pics-2 img{
+    width: 200px;
 
   }
