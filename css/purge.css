@@ -27,18 +27,29 @@ margin-top:  2rem;
   }
 
   .row-pics{
-    display:flex;
-    justify-content: center;
-    gap:1rem;
-    margin-top: 2.5rem;
+    display:grid;
+    align-items:baseline;
+    gap: 0.2em;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto;
+    grid-template-areas: 
+    "row-pic-1 row-pic-2"
+    "row-pic-3 row-pic-3";
+  
    
     
   }
 
-  .row-pics-1{
-    border: .5rem solid brown;
+  .row-pic-1{
+    border: .2rem ridge rgba(28, 24, 14, 0.429);
   }
  
-  .row-pics-2{
-    border: .5rem solid brown;
+  .row-pic-2{
+    border: .2rem ridge rgba(28, 24, 14, 0.429);
+  }
+
+  .row-pic-3{
+    border: .2rem ridge rgba(28, 24, 14, 0.429);
+   justify-self: center;
+    align-self: center;
   }
