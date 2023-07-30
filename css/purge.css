@@ -31,27 +31,31 @@ margin-top:  2rem;
 
   .row-pics-grid{
     display:grid;
-    align-items:baseline;
+    align-items:center;
     gap: 1.5rem;
     grid-template-columns:1fr;
     width:min(95%, 70rem);
-    margin-inline:auto;
+    
   }
 
   .row-pic-1{
-   
+    grid-column:span 1;
     justify-self: center;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
     background: rgba(28, 24, 14, 0.429);
+
+
   }
  
   .row-pic-2{
+    grid-column:span 1;
     justify-self: center;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
     background:rgba(28, 24, 14, 0.429);
   }
 
   .row-pic-3{
+    grid-column:span 1;
     justify-self: center;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
     background:rgba(28, 24, 14, 0.429);
@@ -63,11 +67,10 @@ margin-top:  2rem;
     .row-pics-grid{
       display:grid;
       align-items:center;
-      gap: 1.5rem;
+      gap: 1rem;
       grid-template-columns:1fr 1fr 1fr;
-      width:min(95%, 70rem);
       margin-inline:auto;
-      width:80%
+      
     
   
     
