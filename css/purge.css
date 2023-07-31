@@ -40,7 +40,7 @@ h1{
   color: rgb(73, 65, 65);
 }
   h2{
-margin-top:  2rem;
+margin-top:  5rem;
   }
   
 
@@ -52,9 +52,24 @@ margin-top:  2rem;
   }
 
   .end-ref{
-    width: 70%;
-    text-align: justify;
-    margin-inline: 4.5rem;
+    color: rgb(41, 41, 77);
+    margin-top: 7rem;
+    display:grid;
+  
+  
+    
+    
+  }
+
+  .end-ref-video{
+    justify-self: center;
+  }
+
+  .end-ref-book {
+    width:70%;
+    margin-inline: 5rem;
+    margin-bottom: 5rem;
+
   }
 
 
@@ -125,7 +140,7 @@ margin-top:  2rem;
   }
 
   .row-pic-3 div p{
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
 
