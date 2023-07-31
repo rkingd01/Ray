@@ -39,6 +39,7 @@ margin-top:  2rem;
   }
 
   .row-pic-1{
+    display:flex;
     grid-column:span 1;
     justify-self: center;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
@@ -46,12 +47,29 @@ margin-top:  2rem;
 
 
   }
+
+  .row-pic-1 div{
+    max-width: 7rem;
+    margin-left: 1rem;
+    color: antiquewhite;
+    align-self: center;
+    
+  }
  
   .row-pic-2{
+    display:flex;
     grid-column:span 1;
     justify-self: center;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
     background:rgba(28, 24, 14, 0.429);
+  }
+
+  .row-pic-2 div{
+    max-width: 7rem;
+    margin-left: 1rem;
+    color: antiquewhite;
+    align-self: center;
+    
   }
 
   .row-pic-3{
@@ -60,6 +78,14 @@ margin-top:  2rem;
     border: .2rem ridge rgba(28, 24, 14, 0.429);
     background:rgba(28, 24, 14, 0.429);
    
+  }
+
+  .row-pic-3 div{
+    max-width: 100%;
+    margin-left: 1rem;
+    color: antiquewhite;
+    align-self: center;
+    
   }
 
 
