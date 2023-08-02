@@ -64,6 +64,11 @@ figcaption{
   font-family: Arial Narrow';
 }
 
+
+.intro{
+  margin:5rem;
+}
+
 @media screen and (max-width: 600px) {
   .navbar a {
     float: none;
@@ -101,6 +106,7 @@ img {
 .container2{
   display: grid;
   grid-template-columns: 1fr;
+  
 
 }
 
@@ -161,8 +167,9 @@ figcaption{
     }
 
     .navbar {
+      display: block;
       width: 100%;
-      background-color:#4d0d0d;
+      background-color:#800707;
       overflow:auto;
     
     }
@@ -212,7 +219,7 @@ figcaption{
 
     .navbar {
       width: 100%;
-      background-color:#555;
+      background-color:#534848;
       overflow: auto;
       display: block;
     }
