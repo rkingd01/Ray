@@ -10,17 +10,29 @@
     font-size: 1rem;
     background-color: hwb(43 49% 42%);
     }
-h1{
+h1,h2,h3{
     text-align: center;
+    padding-bottom: .7rem;
+    font-weight: bolder;
 }
+
     main{
         display:block;
         margin: auto;
   width: 70%;
   padding: 10px;
     }
-
+    .img-parent{
+        text-align: center;
+    }
     img{
         max-width:100%;
-        margin: 2rem 0;
+        padding-bottom: 1cqb;
+        
+       
+        
+    }
+
+    article{
+        margin-top: 2rem;
     }
