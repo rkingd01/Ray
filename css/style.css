@@ -148,6 +148,7 @@ figcaption{
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -210,8 +211,9 @@ figcaption{
     }
     .container2{
       display: grid;
-      grid-template-columns: auto auto;
-      grid-auto-rows:minmax(250px, 370px);
+      grid-template-columns: 1fr 1fr;
+      /* grid-template-columns: auto auto; */
+      /* grid-auto-rows:minmax(250px, 370px); */
       column-gap: 1.5em;
       row-gap: 1.5em;
       margin: 0 8rem;
